@@ -18,6 +18,7 @@ import { ProductDetailModal } from './components/modals/ProductDetailModal';
 import { NoticeDetailModal } from './components/modals/NoticeDetailModal';
 import { MsdsModal } from './components/modals/MsdsModal';
 import { TelematicsModal } from './components/modals/TelematicsModal';
+import { ChatbotWidget } from './components/chatbot/ChatbotWidget';
 
 // Subpages
 import { CompanyOverviewPage } from './components/pages/CompanyOverviewPage';
@@ -226,6 +227,13 @@ export default function App() {
       <TelematicsModal
         isOpen={telematicsModalOpen}
         onClose={() => setTelematicsModalOpen(false)}
+      />
+
+      {/* Floating AI Consultant Chatbot */}
+      <ChatbotWidget
+        onOpenQuote={() => handleOpenQuote()}
+        onOpenMsds={() => handleOpenMsds()}
+        onOpenTelematics={() => setTelematicsModalOpen(true)}
       />
     </div>
   );
