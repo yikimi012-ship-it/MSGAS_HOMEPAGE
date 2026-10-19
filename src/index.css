@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-deep-ocean: #0F212B;
+  --color-primary: #00334d;
+  --color-primary-container: #004b6e;
+  --color-primary-fixed: #c9e6ff;
+  --color-secondary: #006687;
+  --color-secondary-container: #79d1fd;
+  --color-secondary-fixed: #c1e8ff;
+  --color-secondary-fixed-dim: #79d1fd;
+  --color-accent-electric: #0AE2FF;
+  --color-surface: #f4faff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #e6f6ff;
+  --color-surface-container: #dcf1fd;
+  --color-surface-container-high: #d6ebf7;
+  --color-surface-variant: #d0e6f1;
+  --color-on-surface: #091e26;
+  --color-on-surface-variant: #41484e;
+  --color-on-primary: #ffffff;
+  --color-tertiary: #003541;
+  --color-tertiary-container: #004d5e;
+  --color-pure-white: #ffffff;
+  --color-border-subtle: rgba(15, 33, 43, 0.08);
+
+  --font-sans: 'Plus Jakarta Sans', 'Noto Sans KR', system-ui, sans-serif;
+}
+
+html, body {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans KR', system-ui, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "(주)MS가스 - 첨단 산업용·특수 가스 솔루션",
+  "description": "대한민국 첨단 산업과 친환경 에너지를 선도하는 (주)MS가스 포털. 초고순도 특수가스, 산업용·의료용 가스, 전국 17개 거점 직배송 스마트 물류 및 온라인 견적 서비스.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
